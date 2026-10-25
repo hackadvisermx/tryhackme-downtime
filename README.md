@@ -4,8 +4,9 @@ Writeups, evidencias y herramientas para resolver el CTF defensivo
 **It’s Downtime!**, también presentado en la página del evento como
 **Strange & Unusual Activity**.
 
-Este repositorio es un proyecto hijo de la colección local de CTFs y sigue la
-organización usada en [`../thecatch-2026`](../thecatch-2026/).
+Este repositorio es un proyecto hijo de la colección
+[CTF Writeups](https://github.com/hackadvisermx/ctf-writeups) y sigue la
+organización usada en [The Catch 2026](https://github.com/hackadvisermx/thecatch-2026).
 
 > El alcance se limita a los escenarios y recursos publicados por TryHackMe
 > para este evento. Las credenciales, enlaces privados de invitación, secretos
