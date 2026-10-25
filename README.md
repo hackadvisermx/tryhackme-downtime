@@ -44,7 +44,7 @@ simuladores, un ejercicio tabletop y cinco desafíos CTF.
 | 5 | [The Waiting Room](https://tryhackme.com/jr/thewaitingroom) | CTF | Correlacionar un correo con adjunto, eventos de Windows y tráfico capturado para reconstruir la cadena de ejecución. | **Completado** |
 | 6 | [Day-O](https://tryhackme.com/room/dayo) | CTF | Analizar una captura de memoria, investigar procesos y artefactos de una aplicación para encontrar el payload oculto. | **Completado** |
 | 7 | [Strange & Unusual Activity](https://tryhackme.com/room/strangeunusualactivity) | CTF | Investigar logs de conexiones y DNS en Kibana, distinguir patrones sospechosos y estimar la cantidad de datos exfiltrados. | **Completado** |
-| 8 | [Dead Endpoint](https://tryhackme.com/room/deadendpoint) | CTF | Reconstruir el compromiso de un servidor Linux, analizar el ejecutable dejado por el atacante y recuperar las imágenes afectadas. | **Completado** |
+| 8 | [Dead Endpoint](https://tryhackme.com/room/deadendpoint) | CTF | Reconstruir el compromiso de un servidor Linux, analizar el ejecutable dejado por el atacante y recuperar las imágenes afectadas. | **Resuelto técnicamente; panel pendiente** |
 
 ## Puntuación y recompensas
 
@@ -128,8 +128,10 @@ hitos, marcar la hipótesis como `Proven` y enviar el informe generado por el
 simulador. El tabletop `Deadmen Tell No Logs` también quedó marcado como
 `Completed`, con **122/150** en la conclusión narrativa. El leaderboard del
 evento muestra `SOC Simulator: Passed`, `TH Simulator: Passed`,
-`Tabletop: Completed` y `Challenges: 5/5` para el equipo
-`hackuaz`. El cuarto reto, `Handbook For The Recently Compromised`, quedó
+`Tabletop: Completed`. El último estado observado del leaderboard fue
+`Challenges: 4/5` para el equipo `hackuaz`; el quinto reto está resuelto
+técnicamente, pero sus respuestas todavía no pudieron validarse en el panel.
+El cuarto reto, `Handbook For The Recently Compromised`, quedó
 marcado como `Completed`. El detalle técnico se conserva en
 [`01-repossessed/README.md`](01-repossessed/README.md) y
 [`02-quiet-as-the-grave/README.md`](02-quiet-as-the-grave/README.md); el nuevo
