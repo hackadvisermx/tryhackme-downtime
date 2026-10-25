@@ -6,7 +6,8 @@
 - **URL:** [Dead Endpoint](https://tryhackme.com/room/deadendpoint).
 - **Dificultad:** Hard.
 - **Duración estimada:** 60 minutos.
-- **Resultado técnico:** artefactos analizados y las seis respuestas recuperadas.
+- **Resultado:** sala completada; las seis respuestas fueron reportadas en
+  TryHackMe y el room quedó validado.
 - **Actividad del evento:** #8 de 8; quinto CTF del evento.
 - **Máquina:** terminada después del análisis.
 - **AttackBox:** utilizado únicamente para montar la imagen de disco; se dejó
@@ -141,8 +142,8 @@ sudo xxd -g1 -l48 /mnt/dead/srv/gallery/media/originals/yard_0152.jpg.locked
 
 ## Validación y cierre
 
-Las seis respuestas quedaron preparadas para reportarse individualmente en
-TryHackMe. El análisis forense, la semilla y la flag se verificaron localmente
-contra el tag GCM y la imagen recuperada. La máquina de laboratorio se terminó
-después de preservar los datos necesarios; no se publicaron los artefactos
-privados del entorno.
+Las seis respuestas se reportaron individualmente en TryHackMe y el usuario
+confirmó que la sala quedó completada. El análisis forense, la semilla y la
+flag se verificaron localmente contra el tag GCM y la imagen recuperada. La
+máquina de laboratorio se terminó después de preservar los datos necesarios;
+no se publicaron los artefactos privados del entorno.
