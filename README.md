@@ -43,7 +43,7 @@ simuladores, un ejercicio tabletop y cinco desafíos CTF.
 | 4 | [Handbook For The Recently Compromised](https://tryhackme.com/jr/handbookfortherecentlycompromised) | CTF | Revisar eventos de Windows, identificar procesos y construir la línea temporal de un equipo sospechoso. | **Completado** |
 | 5 | [The Waiting Room](https://tryhackme.com/jr/thewaitingroom) | CTF | Correlacionar un correo con adjunto, eventos de Windows y tráfico capturado para reconstruir la cadena de ejecución. | **Completado** |
 | 6 | [Day-O](https://tryhackme.com/room/dayo) | CTF | Analizar una captura de memoria, investigar procesos y artefactos de una aplicación para encontrar el payload oculto. | **Completado** |
-| 7 | [Strange & Unusual Activity](https://tryhackme.com/jr/strangeunusualactivity) | CTF | Investigar logs de conexiones y DNS en Kibana, distinguir patrones sospechosos y estimar la cantidad de datos exfiltrados. | Pendiente |
+| 7 | [Strange & Unusual Activity](https://tryhackme.com/room/strangeunusualactivity) | CTF | Investigar logs de conexiones y DNS en Kibana, distinguir patrones sospechosos y estimar la cantidad de datos exfiltrados. | **Completado** |
 | 8 | [Dead Endpoint](https://tryhackme.com/jr/deadendpoint) | CTF | Reconstruir el compromiso de un servidor Linux, analizar el ejecutable dejado por el atacante y recuperar las imágenes afectadas. | Pendiente |
 
 ## Puntuación y recompensas
@@ -121,14 +121,14 @@ writeups individuales únicamente después de validar cada actividad.
 
 ## Estado actual
 
-**6/8 actividades confirmadas en el leaderboard.** `Repossessed` quedó
+**7/8 actividades confirmadas en el leaderboard.** `Repossessed` quedó
 completado en TryHackMe después de cerrar las nueve alertas y enviar el case
 report. `Quiet As The Grave` quedó validado tras reconstruir y guardar los 9/9
 hitos, marcar la hipótesis como `Proven` y enviar el informe generado por el
 simulador. El tabletop `Deadmen Tell No Logs` también quedó marcado como
 `Completed`, con **122/150** en la conclusión narrativa. El leaderboard del
 evento muestra `SOC Simulator: Passed`, `TH Simulator: Passed`,
-`Tabletop: Completed` y `Challenges: 3/5` para el equipo
+`Tabletop: Completed` y `Challenges: 4/5` para el equipo
 `hackuaz`. El cuarto reto, `Handbook For The Recently Compromised`, quedó
 marcado como `Completed`. El detalle técnico se conserva en
 [`01-repossessed/README.md`](01-repossessed/README.md) y
@@ -138,7 +138,10 @@ ejercicio está documentado en
 [`04-handbook-recently-compromised/README.md`](04-handbook-recently-compromised/README.md) y
 [`05-the-waiting-room/README.md`](05-the-waiting-room/README.md).
 El sexto reto, `Day-O`, quedó marcado como `Room completed: 100%` y está
-documentado en [`06-day-o/README.md`](06-day-o/README.md).
+documentado en [`06-day-o/README.md`](06-day-o/README.md). El séptimo reto,
+`Strange & Unusual Activity`, quedó marcado como `Room completed: 100%`; las
+cinco respuestas se reportaron de forma individual y el análisis está en
+[`07-strange-unusual-activity/README.md`](07-strange-unusual-activity/README.md).
 El README raíz se actualizó con la información visible en la página oficial
 del evento el **24 de octubre de 2026**.
 
