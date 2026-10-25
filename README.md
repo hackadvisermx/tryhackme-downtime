@@ -39,7 +39,7 @@ simuladores, un ejercicio tabletop y cinco desafíos CTF.
 |---|---|---|---|---|
 | 1 | [Repossessed](https://tryhackme.com/soc-sim/scenarios?scenario=repossessed) | SOC Simulator | Triar nueve alertas, separar amenazas reales del ruido y documentar los hallazgos antes de que salga la build. | **Completado** |
 | 2 | [Quiet As The Grave](https://tryhackme.com/threat-hunting-sim/scenarios?scenario=quiet-as-the-grave) | Threat Hunting Simulator | Buscar en los logs sin una alerta confirmada, reconstruir la intrusión por etapas y demostrar hasta dónde llegó. | **Completado** |
-| 3 | [Deadmen Tell No Logs](https://tryhackme.com/tabletop-exercises/exercises?exercise=6ad661d34d8777bc630645b5) | Tabletop Exercise | Analizar irregularidades durante una fecha límite y tomar decisiones coordinadas de respuesta. | Pendiente |
+| 3 | [Deadmen Tell No Logs](https://tryhackme.com/tabletop-exercises/exercises?exercise=6ad661d34d8777bc630645b5) | Tabletop Exercise | Analizar irregularidades durante una fecha límite y tomar decisiones coordinadas de respuesta. | **Completado** |
 | 4 | [Handbook For The Recently Compromised](https://tryhackme.com/jr/handbookfortherecentlycompromised) | CTF | Revisar eventos de Windows, identificar procesos y construir la línea temporal de un equipo sospechoso. | Pendiente |
 | 5 | [The Waiting Room](https://tryhackme.com/jr/thewaitingroom) | CTF | Correlacionar un correo con adjunto, eventos de Windows y tráfico capturado para reconstruir la cadena de ejecución. | Pendiente |
 | 6 | [Day-O](https://tryhackme.com/jr/dayo) | CTF | Analizar una captura de memoria, investigar procesos y artefactos de una aplicación para encontrar el payload oculto. | Pendiente |
@@ -121,15 +121,19 @@ writeups individuales únicamente después de validar cada actividad.
 
 ## Estado actual
 
-**2/8 actividades confirmadas en el leaderboard.** `Repossessed` quedó
+**3/8 actividades confirmadas en el leaderboard.** `Repossessed` quedó
 completado en TryHackMe después de cerrar las nueve alertas y enviar el case
 report. `Quiet As The Grave` quedó validado tras reconstruir y guardar los 9/9
 hitos, marcar la hipótesis como `Proven` y enviar el informe generado por el
-simulador. El resultado individual fue **939 puntos**; el leaderboard del
-evento muestra `SOC Simulator: Passed`, `TH Simulator: Passed` y **1000 XP**
-para el equipo `hackuaz`. El detalle técnico se conserva en
+simulador. El tabletop `Deadmen Tell No Logs` también quedó marcado como
+`Completed`, con **122/150** en la conclusión narrativa. El leaderboard del
+evento muestra `SOC Simulator: Passed`, `TH Simulator: Passed`,
+`Tabletop: Completed` y **1500 XP** para el equipo `hackuaz`. El detalle
+técnico se conserva en
 [`01-repossessed/README.md`](01-repossessed/README.md) y
-[`02-quiet-as-the-grave/README.md`](02-quiet-as-the-grave/README.md). El README
-raíz se actualizó con la información visible en la página oficial del evento
-el **24 de octubre de 2026**.
+[`02-quiet-as-the-grave/README.md`](02-quiet-as-the-grave/README.md); el nuevo
+ejercicio está documentado en
+[`03-deadmen-tell-no-logs/README.md`](03-deadmen-tell-no-logs/README.md). El
+README raíz se actualizó con la información visible en la página oficial del
+evento el **24 de octubre de 2026**.
 
