@@ -41,7 +41,7 @@ simuladores, un ejercicio tabletop y cinco desafíos CTF.
 | 2 | [Quiet As The Grave](https://tryhackme.com/threat-hunting-sim/scenarios?scenario=quiet-as-the-grave) | Threat Hunting Simulator | Buscar en los logs sin una alerta confirmada, reconstruir la intrusión por etapas y demostrar hasta dónde llegó. | **Completado** |
 | 3 | [Deadmen Tell No Logs](https://tryhackme.com/tabletop-exercises/exercises?exercise=6ad661d34d8777bc630645b5) | Tabletop Exercise | Analizar irregularidades durante una fecha límite y tomar decisiones coordinadas de respuesta. | **Completado** |
 | 4 | [Handbook For The Recently Compromised](https://tryhackme.com/jr/handbookfortherecentlycompromised) | CTF | Revisar eventos de Windows, identificar procesos y construir la línea temporal de un equipo sospechoso. | **Completado** |
-| 5 | [The Waiting Room](https://tryhackme.com/jr/thewaitingroom) | CTF | Correlacionar un correo con adjunto, eventos de Windows y tráfico capturado para reconstruir la cadena de ejecución. | Pendiente |
+| 5 | [The Waiting Room](https://tryhackme.com/jr/thewaitingroom) | CTF | Correlacionar un correo con adjunto, eventos de Windows y tráfico capturado para reconstruir la cadena de ejecución. | **Completado** |
 | 6 | [Day-O](https://tryhackme.com/jr/dayo) | CTF | Analizar una captura de memoria, investigar procesos y artefactos de una aplicación para encontrar el payload oculto. | Pendiente |
 | 7 | [Strange & Unusual Activity](https://tryhackme.com/jr/strangeunusualactivity) | CTF | Investigar logs de conexiones y DNS en Kibana, distinguir patrones sospechosos y estimar la cantidad de datos exfiltrados. | Pendiente |
 | 8 | [Dead Endpoint](https://tryhackme.com/jr/deadendpoint) | CTF | Reconstruir el compromiso de un servidor Linux, analizar el ejecutable dejado por el atacante y recuperar las imágenes afectadas. | Pendiente |
@@ -121,21 +121,22 @@ writeups individuales únicamente después de validar cada actividad.
 
 ## Estado actual
 
-**4/8 actividades confirmadas en el leaderboard.** `Repossessed` quedó
+**5/8 actividades confirmadas en el leaderboard.** `Repossessed` quedó
 completado en TryHackMe después de cerrar las nueve alertas y enviar el case
 report. `Quiet As The Grave` quedó validado tras reconstruir y guardar los 9/9
 hitos, marcar la hipótesis como `Proven` y enviar el informe generado por el
 simulador. El tabletop `Deadmen Tell No Logs` también quedó marcado como
 `Completed`, con **122/150** en la conclusión narrativa. El leaderboard del
 evento muestra `SOC Simulator: Passed`, `TH Simulator: Passed`,
-`Tabletop: Completed`, `Challenges: 1/5` y **1548 XP** para el equipo
+`Tabletop: Completed` y `Challenges: 2/5` para el equipo
 `hackuaz`. El cuarto reto, `Handbook For The Recently Compromised`, quedó
 marcado como `Completed`. El detalle técnico se conserva en
 [`01-repossessed/README.md`](01-repossessed/README.md) y
 [`02-quiet-as-the-grave/README.md`](02-quiet-as-the-grave/README.md); el nuevo
 ejercicio está documentado en
 [`03-deadmen-tell-no-logs/README.md`](03-deadmen-tell-no-logs/README.md) y
-[`04-handbook-recently-compromised/README.md`](04-handbook-recently-compromised/README.md).
+[`04-handbook-recently-compromised/README.md`](04-handbook-recently-compromised/README.md) y
+[`05-the-waiting-room/README.md`](05-the-waiting-room/README.md).
 El README raíz se actualizó con la información visible en la página oficial
 del evento el **24 de octubre de 2026**.
 
